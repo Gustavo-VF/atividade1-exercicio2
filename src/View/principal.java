@@ -8,10 +8,14 @@ public class principal {
 
 	public static void main(String[] args) {
 		Controller op = new Controller();
-		String Texto = op.Entrada();
-
-		op.Texto(Texto);
-
+		String Texto1 = op.Entrada();
+		op.Texto(Texto1);
+		
+		String Texto2 = op.Entrada();
+		op.Texto(Texto2);
+		
+		String Texto3 = op.Entrada();
+		op.Texto(Texto3);
 	}
 
 }
